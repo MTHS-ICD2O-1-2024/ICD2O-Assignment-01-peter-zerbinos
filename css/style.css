@@ -1,4 +1,81 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
-* This file contains the CSS for index.html
-*/
+/* Created by: Peter Zerbinos
+ * Created on: May 2025
+ * This file contains the CSS for index.html
+ */
+
+.mdl-layout__header-row {
+  justify-content: center;
+  padding: 0;
+  background-color: #FF6F00;
+  /* Deep orange */
+}
+
+.mdl-layout__content {
+  padding-left: 15pt;
+  padding-right: 15pt;
+  padding-top: 15pt;
+}
+
+.mdl-textfield__error {
+  color: #FF9800;
+  /* Orange */
+}
+
+.page-content {
+  color: #FFF3E0;
+  /* Light orange background for contrast */
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25rem;
+}
+
+body {
+  background-color: #FF8F00;
+  /* Orange */
+}
+
+img {
+  float: right;
+  height: 200px;
+  border: 3px solid #FF6F00;
+  /* Matching deep orange border */
+}
+
+h1 {
+  color: white;
+  font-size: 1.75rem;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  padding-top: 0.5em;
+}
+
+h2 {
+  color: white;
+  font-size: 1.5rem;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  padding-top: 0.5em;
+}
+
+h3 {
+  color: white;
+  font-size: 1.5rem;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  padding-left: 15pt;
+  padding-right: 15pt;
+  padding-top: 5pt;
+  background-color: #E65100;
+  /* Dark orange */
+}
+
+h4 {
+  color: white;
+  font-size: 1.5rem;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  padding-left: 15pt;
+  padding-right: 15pt;
+  padding-top: 5pt;
+  background-color: #E65100;
+  /* Dark orange */
+}
